@@ -1,4 +1,10 @@
+## Compose sample application
 
+### Use with Docker Development Environments
+
+You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.
+
+[Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/react-java-mysql)
 
 ### React application with a Spring backend and a MySQL database
 
@@ -6,14 +12,14 @@ Project structure:
 ```
 .
 ├── backend
-│   ├── Dockerfile
-│   ...
+│   ├── Dockerfile
+│   ...
 ├── db
-│   └── password.txt
+│   └── password.txt
 ├── compose.yaml
 ├── frontend
-│   ├── ...
-│   └── Dockerfile
+│   ├── ...
+│   └── Dockerfile
 └── README.md
 ```
 
@@ -43,6 +49,7 @@ Make sure port 3000 on the host is not already being in use.
 > For compatibility purpose between `AMD64` and `ARM64` architecture, we use a MariaDB as database instead of MySQL.
 > You still can use the MySQL image by uncommenting the following line in the Compose file
 > `#image: mysql:8.0.27`
+
 ## Deploy with docker compose
 
 ```
